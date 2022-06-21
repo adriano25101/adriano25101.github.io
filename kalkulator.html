@@ -1,0 +1,32 @@
+<html>
+<head>
+    <meta charset="utf-8">
+   <title>najwieksza liczba</title>
+    <script>
+        
+    function licz(){
+			var a=document.getElementById("a").value;
+			var b=document.getElementById("b").value;
+			var c=document.getElementById("c").value;
+			var d=document.getElementById("d").value;
+			if(a<0 || b<0 || c<0 || d<0)  document.getElementById("result").value="Liczba nie może być ujemna";
+			else document.getElementById("result").value="Najwieksza cyfra to: "+Math.max(a,b,c,d);
+    
+    }
+    </script>
+    </head>
+    <body>
+       <center> 
+    <H1>Znajdź największą <br>liczbę</H1>
+
+      Podaj Cyfrę  <input type=number id="a"><br>
+      Podaj Cyfrę  <input type=number id="b"><br>
+       Podaj Cyfrę <input type=number id="c"><br>
+     Podaj Cyfrę   <input type=number id="d"><br>
+            <input type=submit onclick="licz()">
+            <input type="text" disabled placeholder="Wynik" id="result">
+     
+  
+            </center>
+     </body>
+</html>
