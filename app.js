@@ -8,7 +8,6 @@ let w_unit=document.getElementById('w_unit');
 btn.addEventListener('click',function(e){
     e.preventDefault();
     var cal=get_weight()/Math.pow(get_heigt(),2);
-    System.out.format("%.2d%n", cal);
     document.getElementById("bmi").innerHTML=cal;
    document.getElementById('name').innerHTML=user_name.value;
    document.getElementById('age').innerHTML=user_age.value +" Lat";
