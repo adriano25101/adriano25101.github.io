@@ -10,7 +10,7 @@ btn.addEventListener('click',function(e){
     var cal=get_weight()/Math.pow(get_heigt(),2);
     document.getElementById("bmi").innerHTML=cal;
    document.getElementById('name').innerHTML=user_name.value;
-   document.getElementById('age').innerHTML=user_age.value +" Years Old";
+   document.getElementById('age').innerHTML=user_age.value +" Lat";
     document.getElementById('display').style.display="block";
     document.getElementById('uname').value="";
     document.getElementById('uage').value="";
