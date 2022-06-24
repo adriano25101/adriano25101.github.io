@@ -26,7 +26,7 @@ function get_weight(){
         return user_weight_val;
     }
     else if (weight_unit_val=="pound"){
-        return user_weight_val/2.2;
+        return user_weight_val/2.20462;
     }
 }
 function get_heigt(){
@@ -36,10 +36,11 @@ function get_heigt(){
         return user_height_val;
     }
     else if(height_unit_val=="inch"){
-        return user_height_val/39.4;
+        return user_height_val/39.3701;
         
     }
     else{
         return user_height_val/100;
     }
 }
+
